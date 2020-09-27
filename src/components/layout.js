@@ -1,8 +1,8 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import '../assets/scss/main.scss'
-import Header from './Header'
-import Footer from './Footer'
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import "../assets/scss/main.scss";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = ({ children, ...props }) => (
   <StaticQuery
@@ -29,9 +29,9 @@ const Layout = ({ children, ...props }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <React.Fragment>
-        <div className={props.location == '/' ? 'landing' : ''}>
+        <div className={""}>
           <div id="page-wrapper">
             <Header
               menuLinks={data.site.siteMetadata.menuLinks}
@@ -44,6 +44,6 @@ const Layout = ({ children, ...props }) => (
       </React.Fragment>
     )}
   />
-)
+);
 
-export default Layout
+export default Layout;
