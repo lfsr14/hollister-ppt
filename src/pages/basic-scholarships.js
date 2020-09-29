@@ -12,7 +12,7 @@ const BasicFaceToFace = (props) => (
     </Helmet>
 
     <div id="main" className="basic-level">
-      <div className="col-12 col-12-medium">
+      <div className="col-8 col-12-medium">
         <div className="line-title"></div>
         <div className="main-basic">
           <div className="number-page">01</div>
