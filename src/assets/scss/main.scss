@@ -6,7 +6,6 @@
 @import "libs/html-grid";
 @import url("../css/fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-@import "~bootstrap/scss/bootstrap";
 
 /*
 	Landed by HTML5 UP
@@ -1827,31 +1826,6 @@ body.is-touch {
   position: relative;
   z-index: (_misc(max-spotlight) + 1);
 
-  &:before {
-    content: "";
-    display: inline-block;
-    height: 100vh;
-    vertical-align: middle;
-    width: 1%;
-  }
-
-  &:after {
-    @include vendor(
-      "background-image",
-      (
-        "linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})",
-        'url("../css/images/overlay.png");'
-      )
-    );
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
   .content {
     display: inline-block;
     margin-right: 1%;
@@ -2478,4 +2452,40 @@ body.is-touch {
 
 body {
   overflow: hidden;
+  background-color: #fff6f6 !important;
+}
+
+.footer-navigation {
+  background-color: #fff6f6 !important;
+  padding: 1em !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 74px;
+
+  ul {
+    margin: 0;
+  }
+}
+
+.link-navigation {
+  color: _palette(accent2);
+  border-bottom: none;
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
+.banner-humanizacion {
+  color: _palette(accent2);
+  background-color: #fff6f6 !important;
+}
+
+.image-two {
+  height: 75%;
 }
