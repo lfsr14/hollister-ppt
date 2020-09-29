@@ -24,44 +24,48 @@ const EspecializedTwo = (props) => (
           <div className="number-page">02</div>
           <div className="title-basic">Nivel Especializado</div>
         </div>
-        <div className="container-especialized">
-          <div className="col-8">
-            <div className="especialized">
-              <span>
-                Principales motivos para desarrollar tu formación en
-                Competencias Digitales
-              </span>
-            </div>
-          </div>
-          <div className="col-4 col-img">
-            <img src={Ilustration} />
-          </div>
-        </div>
-        <div className="container-imgs-especialized-02 col-12 containers-cards">
-          <div>
-            <img src={Cuadro1} />
-            <div>
-              <span>01</span>
-              <div>La eSalud mejora la calidad asistencial.</div>
-            </div>
-          </div>
-          <div>
-            <img src={Cuadro2} />
-            <div>
-              <span>02</span>
-              <div>
-                En el actual contexto sanitario se han convertido en
-                imprescindibles.
+        <div class='row'>
+          <div className="container-especialized">
+            <div className="col-8">
+              <div className="especialized">
+                <span>
+                  Principales motivos para desarrollar tu formación en
+                  Competencias Digitales
+                </span>
               </div>
             </div>
+            <div className="col-4 col-img">
+              <img src={Ilustration} />
+            </div>
           </div>
-          <div>
-            <img src={Cuadro3} />
+        </div>
+        <div class='row'>
+          <div className="container-imgs-especialized-02 col-12 containers-cards">
             <div>
-              <span>03</span>
+              <img src={Cuadro1} />
               <div>
-                Estudios demuestran la necesidad de formación en estas
-                competencias.
+                <span>01</span>
+                <div>La eSalud mejora la calidad asistencial.</div>
+              </div>
+            </div>
+            <div>
+              <img src={Cuadro2} />
+              <div>
+                <span>02</span>
+                <div>
+                  En el actual contexto sanitario se han convertido en
+                  imprescindibles.
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src={Cuadro3} />
+              <div>
+                <span>03</span>
+                <div>
+                  Estudios demuestran la necesidad de formación en estas
+                  competencias.
+                </div>
               </div>
             </div>
           </div>
