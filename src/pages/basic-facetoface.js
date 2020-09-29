@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
 import Img09 from '../images/09.png'
+import FooterNavigation from "../components/FooterNavigation";
 
 const BasicFaceToFace = (props) => (
   <Layout>
@@ -125,6 +126,10 @@ const BasicFaceToFace = (props) => (
         <img src={Img09} />
       </div>
     </div>
+    <FooterNavigation
+      left={"/basic-facetoface"}
+      right={"/basic-scholarships"}
+    />
   </Layout>
 );
 

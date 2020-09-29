@@ -25,7 +25,7 @@ const EspecializedOne = (props) => (
           <div className="title-basic">Nivel Especializado</div>
         </div>
         <div className="container-especialized">
-          <div className="col-8">
+          <div className="col-8 col-12-medium">
             <div className="online-especialized">
               Programa de desarrollo de{" "}
               <span>Competencias Digitales para profesionales de la salud</span>
@@ -36,7 +36,7 @@ const EspecializedOne = (props) => (
               </div>
             </div>
           </div>
-          <div className="col-4 col-img">
+          <div className="col-4 col-12-medium col-img">
             <img src={Ilustration} />
           </div>
         </div>
@@ -52,11 +52,11 @@ const EspecializedOne = (props) => (
           </div>
         </div>
       </div>
-      <FooterNavigation
+    </div>
+    <FooterNavigation
         left={"/basic-scholarships"}
         right={"/especialized-two"}
       />
-    </div>
   </Layout>
 );
 

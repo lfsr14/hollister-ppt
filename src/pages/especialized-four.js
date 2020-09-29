@@ -9,6 +9,7 @@ import Cuadro3 from "../images/especialized-four/ico_03.png";
 import Cuadro4 from "../images/especialized-four/ico_04.png";
 import Cuadro5 from "../images/especialized-four/ico_05.png";
 import Cuadro6 from "../images/especialized-four/ico_06.png";
+import FooterNavigation from "../components/FooterNavigation";
 
 const EspecializedThree = (props) => (
   <Layout>
@@ -66,6 +67,10 @@ const EspecializedThree = (props) => (
         </div>
       </div>
     </div>
+    <FooterNavigation
+        left={"/especialized-three"}
+        right={"/especialized-five"}
+      />
   </Layout>
 );
 

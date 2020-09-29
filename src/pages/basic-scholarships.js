@@ -13,7 +13,7 @@ const BasicFaceToFace = (props) => (
     </Helmet>
 
     <div id="main" className="basic-level">
-      <div className="col-8 col-12-medium">
+      <div className="backfgraund-withe col-8 col-12-medium">
         <div className="line-title"></div>
         <div className="main-basic">
           <div className="number-page">01</div>
@@ -24,7 +24,7 @@ const BasicFaceToFace = (props) => (
           <div>Becas en</div>
         </div>
         <div className="border-title-bottom">
-          <div className="more-info">+ info</div>
+          <div className='more-info'>+ info</div>
         </div>
 
         <div className="wrapper">
@@ -125,11 +125,11 @@ const BasicFaceToFace = (props) => (
       <div className="col-4 col-12-medium container-img">
         <img src={Img09} />
       </div>
-      <FooterNavigation
-        left={"/basic-facetoface"}
-        right={"/especialized-one"}
-      />
     </div>
+    <FooterNavigation
+      left={"/basic-facetoface"}
+      right={"/especialized-one"}
+    />
   </Layout>
 );
 
