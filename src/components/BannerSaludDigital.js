@@ -1,20 +1,27 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
-import pic01 from "../assets/images/pic01.jpg";
+import logoPortada from "../assets/images/01/logo-blanco-portada.png";
+import FooterNavigation from "./FooterNavigation";
+
+import "../assets/scss/01.scss";
 
 const BannerSaludDigital = () => {
   return (
-    <section id="bannerSalud">
-      <div className="content">
-        <div className="container">
+    <>
+      <section id="bannerSalud">
+        <div className="container-banner">
           <div className="row">
-            <div className="col-md-12">
-              <h1>Salud Dígital</h1>
+            <div className="col-12">
+              <img src={logoPortada} className="logo-banner" />
+            </div>
+            <div className="col-12 title-banner">
+              <h2>Salud Digital</h2>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+
+        <FooterNavigation right={"/dos"} />
+      </section>
+    </>
   );
 };
 

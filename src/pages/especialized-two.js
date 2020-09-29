@@ -2,11 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
-import Ilustration from '../images/especialized-one/ilustracion.png'
-import ViewVideo from '../images/especialized-one/view-video.png'
-import Cuadro1 from '../images/especialized-one/ico_01.png'
-import Cuadro2 from '../images/especialized-one/ico_02.png'
-import Cuadro3 from '../images/especialized-one/ico_03.png'
+import Ilustration from "../images/especialized-one/ilustracion.png";
+import ViewVideo from "../images/especialized-one/view-video.png";
+import Cuadro1 from "../images/especialized-one/ico_01.png";
+import Cuadro2 from "../images/especialized-one/ico_02.png";
+import Cuadro3 from "../images/especialized-one/ico_03.png";
+
+import FooterNavigation from "../components/FooterNavigation";
 
 const EspecializedTwo = (props) => (
   <Layout>
@@ -22,17 +24,20 @@ const EspecializedTwo = (props) => (
           <div className="number-page">02</div>
           <div className="title-basic">Nivel Especializado</div>
         </div>
-        <div className='container-especialized'>
-          <div className='col-8'>
+        <div className="container-especialized">
+          <div className="col-8">
             <div className="especialized">
-              <span>Principales motivos para desarrollar tu formación en Competencias Digitales</span>
+              <span>
+                Principales motivos para desarrollar tu formación en
+                Competencias Digitales
+              </span>
             </div>
           </div>
-          <div className='col-4 col-img'>
+          <div className="col-4 col-img">
             <img src={Ilustration} />
           </div>
         </div>
-        <div className='container-imgs-especialized-02 col-12 containers-cards'>
+        <div className="container-imgs-especialized-02 col-12 containers-cards">
           <div>
             <img src={Cuadro1} />
             <div>
@@ -44,18 +49,28 @@ const EspecializedTwo = (props) => (
             <img src={Cuadro2} />
             <div>
               <span>02</span>
-              <div>En el actual contexto sanitario se han convertido en imprescindibles.</div>
+              <div>
+                En el actual contexto sanitario se han convertido en
+                imprescindibles.
+              </div>
             </div>
           </div>
           <div>
             <img src={Cuadro3} />
             <div>
               <span>03</span>
-              <div>Estudios demuestran la necesidad de formación en estas competencias.</div>
+              <div>
+                Estudios demuestran la necesidad de formación en estas
+                competencias.
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <FooterNavigation
+        left={"/especialized-one"}
+        right={"/especialized-three"}
+      />
     </div>
   </Layout>
 );

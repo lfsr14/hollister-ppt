@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
-import BannerSaludDigital from "../components/BannerSaludDigital";
+import Humanizacion from "../components/Humanizacion";
 
-const SaludDigital = () => {
+const DosPage = () => {
   return (
     <Layout location="/">
       <Helmet
@@ -14,9 +14,9 @@ const SaludDigital = () => {
           { name: "keywords", content: "sample, something" },
         ]}
       ></Helmet>
-      <BannerSaludDigital />
+      <Humanizacion />
     </Layout>
   );
 };
 
-export default SaludDigital;
+export default DosPage;

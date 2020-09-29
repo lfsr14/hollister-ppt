@@ -2,7 +2,7 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import "../assets/scss/main.scss";
 import Header from "./Header";
-import Footer from "./Footer";
+import FooterNavigation from "./FooterNavigation";
 
 const Layout = ({ children, ...props }) => (
   <StaticQuery

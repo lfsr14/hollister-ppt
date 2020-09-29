@@ -1,0 +1,55 @@
+.container-humanizacion {
+  margin: 0 auto;
+  max-width: calc(100% - 4em);
+  width: 85em;
+  padding-top: 10%;
+}
+
+h3 {
+  color: #272833;
+  font-weight: 500;
+  margin: 0;
+}
+h2 {
+  color: #c9112b;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2.subtitle {
+  color: #272833;
+  font-weight: 500;
+}
+
+h4 {
+  color: #272833;
+}
+
+h4.title-name {
+  font-weight: 600;
+  padding-top: 1%;
+}
+
+.border-section {
+  border-width: 3px;
+  border-color: #c9112b;
+  border-style: solid;
+}
+
+.content-border {
+  padding: 4%;
+}
+
+.content-quote h4 {
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+}
+
+.content-quote i {
+  color: #c9112b;
+}
+
+.content-title {
+  padding-left: 3%;
+}

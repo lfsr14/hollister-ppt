@@ -2,7 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
-import Img09 from '../images/09.png'
+import Img09 from "../images/09.png";
+import FooterNavigation from "../components/FooterNavigation";
 
 const BasicFaceToFace = (props) => (
   <Layout>
@@ -23,7 +24,7 @@ const BasicFaceToFace = (props) => (
           <div>Becas en</div>
         </div>
         <div className="border-title-bottom">
-          <div className='more-info'>+ info</div>
+          <div className="more-info">+ info</div>
         </div>
 
         <div className="wrapper">
@@ -124,6 +125,10 @@ const BasicFaceToFace = (props) => (
       <div className="col-4 col-12-medium container-img">
         <img src={Img09} />
       </div>
+      <FooterNavigation
+        left={"/basic-facetoface"}
+        right={"/especialized-one"}
+      />
     </div>
   </Layout>
 );
