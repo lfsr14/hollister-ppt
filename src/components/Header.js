@@ -1,20 +1,20 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import MobileMenu from './MobileMenu'
+import React from "react";
+import { Link } from "gatsby";
+import MobileMenu from "./MobileMenu";
 
-const timeoutLength = 300
+const timeoutLength = 300;
 
 class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       active: false,
-      mobileActiveClass: '',
+      mobileActiveClass: "",
       mouseOverButton: false,
       mouseOverMenu: false,
       mouseOverSubButton: false,
       mouseOverSubMenu: false,
-    }
+    };
   }
 
   toggleHamburger = () => {
@@ -26,98 +26,79 @@ class Header extends React.Component {
         // set the class for the mobile menu
         this.state.active
           ? this.setState({
-              mobileActiveClass: 'navPanel-visible',
+              mobileActiveClass: "navPanel-visible",
             })
           : this.setState({
-              mobileActiveClass: '',
-            })
+              mobileActiveClass: "",
+            });
       }
-    )
-  }
+    );
+  };
 
   handleMouseHover() {
-    this.setState(this.toggleHoverState)
+    this.setState(this.toggleHoverState);
   }
 
   toggleHoverState(state) {
     return {
       isHovering: !state.isHovering,
-    }
+    };
   }
 
   enterButton = () => {
-    this.setState({ mouseOverButton: true })
-  }
+    this.setState({ mouseOverButton: true });
+  };
 
   leaveButton = () => {
     setTimeout(() => {
-      this.setState({ mouseOverButton: false })
-    }, timeoutLength)
-  }
+      this.setState({ mouseOverButton: false });
+    }, timeoutLength);
+  };
 
   enterMenu = () => {
-    this.setState({ mouseOverMenu: true })
-  }
+    this.setState({ mouseOverMenu: true });
+  };
 
   leaveMenu = () => {
     setTimeout(() => {
-      this.setState({ mouseOverMenu: false })
-    }, timeoutLength)
-  }
+      this.setState({ mouseOverMenu: false });
+    }, timeoutLength);
+  };
 
   enterSubButton = () => {
-    this.setState({ mouseOverSubButton: true })
-  }
+    this.setState({ mouseOverSubButton: true });
+  };
 
   leaveSubButton = () => {
     setTimeout(() => {
-      this.setState({ mouseOverSubButton: false })
-    }, timeoutLength)
-  }
+      this.setState({ mouseOverSubButton: false });
+    }, timeoutLength);
+  };
 
   enterSubMenu = () => {
-    this.setState({ mouseOverSubMenu: true })
-  }
+    this.setState({ mouseOverSubMenu: true });
+  };
 
   leaveSubMenu = () => {
     setTimeout(() => {
-      this.setState({ mouseOverSubMenu: false })
-    }, timeoutLength)
-  }
+      this.setState({ mouseOverSubMenu: false });
+    }, timeoutLength);
+  };
 
   render() {
-    const siteTitle = this.props.siteTitle
-    const menuLinks = this.props.menuLinks
-    const open = this.state.mouseOverButton || this.state.mouseOverMenu
-    const subOpen = this.state.mouseOverSubButton || this.state.mouseOverSubMenu
+    const siteTitle = this.props.siteTitle;
+    const menuLinks = this.props.menuLinks;
+    const open = this.state.mouseOverButton || this.state.mouseOverMenu;
+    const subOpen =
+      this.state.mouseOverSubButton || this.state.mouseOverSubMenu;
 
     return (
       <React.Fragment>
-        <div className={`navbar-menu ${this.state.mobileActiveClass}`}>
-          <div id="titleBar">
-            <a
-              role="button"
-              onClick={() => this.toggleHamburger()}
-              className="toggle"
-              aria-label="Open mobile menu"
-            ></a>
-            <span className="title">
-              <Link to="/">{siteTitle}</Link>
-            </span>
-          </div>
-          <div id="navPanel">
-            <MobileMenu siteTitle={siteTitle} menuLinks={menuLinks} />
-          </div>
-        </div>
-
         <header id="header">
-          <h1 id="logo">
-            <Link to="/">{siteTitle}</Link>
-          </h1>
-          <div className="navbar-menu">
+          <div className={`navbar-menu ${this.state.mobileActiveClass}`}>
             <nav>
-              <ul style={{ display: 'flex', flex: 1 }}>
-                {menuLinks.map(link =>
+              <ul style={{ display: "flex", flex: 1 }}>
+                {menuLinks.map((link) =>
                   link.items ? (
                     <React.Fragment key={link.name}>
                       <li key={link.name}>
@@ -145,7 +126,7 @@ class Header extends React.Component {
                           onMouseEnter={this.enterMenu}
                           onMouseLeave={this.leaveMenu}
                         >
-                          {link.items.map(sublink =>
+                          {link.items.map((sublink) =>
                             sublink.items ? (
                               <React.Fragment key={sublink.name}>
                                 <li
@@ -183,7 +164,7 @@ class Header extends React.Component {
                                     onMouseEnter={this.enterSubMenu}
                                     onMouseLeave={this.leaveSubMenu}
                                   >
-                                    {sublink.items.map(nestedsublink => (
+                                    {sublink.items.map((nestedsublink) => (
                                       <li
                                         key={nestedsublink.name}
                                         style={{
@@ -236,8 +217,8 @@ class Header extends React.Component {
           </div>
         </header>
       </React.Fragment>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

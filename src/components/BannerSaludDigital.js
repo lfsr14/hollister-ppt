@@ -6,12 +6,13 @@ const BannerSaludDigital = () => {
   return (
     <section id="bannerSalud">
       <div className="content">
-        <header>
-          <h2>Salud Digital</h2>
-        </header>
-        <span className="image">
-          <img src={pic01} alt="intro" />
-        </span>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <h1>Salud Dígital</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

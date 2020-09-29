@@ -52,11 +52,7 @@ module.exports = {
       {
         name: "Documentación",
         link: "/elements",
-      },
-      {
-        name: "Sign Up",
-        link: "#",
-        cl: "button primary",
+        cl: "",
       },
     ],
   },

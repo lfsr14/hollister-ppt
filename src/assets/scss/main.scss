@@ -6,15 +6,14 @@
 @import "libs/html-grid";
 @import url("../css/fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import "~bootstrap/scss/bootstrap";
 
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 // Breakpoints.
-
 @include breakpoints(
   (
     xlarge: (
@@ -1656,6 +1655,9 @@ body .landing {
   top: 0;
   width: 100%;
   z-index: 100;
+  background-image: url("../images/Barra-menu.jpg");
+  background-repeat: no-repeat;
+  min-height: 80px;
 
   h1 {
     height: inherit;
@@ -1681,7 +1683,7 @@ body .landing {
         a,
         span {
           border: 0;
-          color: inherit;
+          color: #c9112b;
           display: inline-block;
           height: inherit;
           line-height: inherit;
@@ -1817,13 +1819,12 @@ body.is-touch {
 #bannerSalud {
   background-attachment: fixed;
   background-color: _palette(accent2);
-  background-image: url("../images/banner-red.jpg");
+  background-image: url("../images/01/portada.jpg");
   background-position: center center;
   background-size: cover;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
   min-height: 100vh;
   position: relative;
-  text-align: center;
   z-index: (_misc(max-spotlight) + 1);
 
   &:before {
@@ -1857,7 +1858,6 @@ body.is-touch {
     max-width: 95%;
     padding: $size-wrapper-pad-tb;
     position: relative;
-    text-align: right;
     vertical-align: middle;
     z-index: 1;
 
@@ -2474,4 +2474,8 @@ body.is-touch {
       }
     }
   }
+}
+
+body {
+  overflow: hidden;
 }

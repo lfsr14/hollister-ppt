@@ -16,14 +16,6 @@ const Layout = ({ children, ...props }) => (
               name
               link
               cl
-              items {
-                link
-                name
-                items {
-                  link
-                  name
-                }
-              }
             }
           }
         }
@@ -38,7 +30,6 @@ const Layout = ({ children, ...props }) => (
               siteTitle={data.site.siteMetadata.title}
             />
             {children}
-            <Footer />
           </div>
         </div>
       </React.Fragment>

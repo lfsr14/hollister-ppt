@@ -1,8 +1,8 @@
-import React from 'react'
-import pic01 from '../assets/images/pic01.jpg'
-import { Link as ScrollLink } from 'react-scroll'
+import React from "react";
+import pic01 from "../assets/images/pic01.jpg";
+import { Link as ScrollLink } from "react-scroll";
 
-const Banner = props => (
+const Banner = (props) => (
   <section id="banner">
     <div className="content">
       <header>
@@ -29,6 +29,6 @@ const Banner = props => (
       Next
     </ScrollLink>
   </section>
-)
+);
 
-export default Banner
+export default Banner;
