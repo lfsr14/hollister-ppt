@@ -412,3 +412,179 @@
   line-height: 15px;
   letter-spacing: 1px;
 }
+
+.fondo-slide {
+  background-image: url("../images/18/fondo_18.png");
+  height: 90vh;
+  position:absolute; 
+  z-index: 0; width:100%;
+  background-color: white;
+}
+.icono-nivel {
+  height: 130px;
+  margin-left: 8vw;
+}
+.texto-nivel-avanzado {
+  width: 60%;
+  margin: 0 0 0 50px;
+  text-align: center;
+}
+.columnas-una {
+  display: flex;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // line-height: 25px;
+
+}
+.columnas-dos {
+  width: 50%;
+  margin: 10px;
+}
+.logo-salus , .logo-salus img{
+  // margin-bottom: 25px;
+  height: 70px;
+}
+#banner-navanzadouno {
+  background-image: url("../images/18/fondo_18.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 100vh;
+  position: relative;
+}
+#banner-navanzadodos {
+  background-image: url("../images/19/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 100vh;
+  position: relative;
+}
+#banner-urologia {
+  background-image: url("../images/20/fondo_urologia.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 93vh;
+  position: relative;
+}
+#banner-psanitarios{
+  background-image: url("../images/21/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+#banner-hsdigital {
+  background-image: url("../images/22/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+#banner-teleconsulta {
+  background-image: url("../images/23/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+#banner-ciberseguridad {
+  background-image: url("../images/24/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+#banner-tcolaborativo {
+  background-image: url("../images/25/fondo.jpg");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+#banner-finteractivos {
+  background-image: url("../images/26/fondo.jpg");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;  
+}
+#banner-final {
+  background-image: url("../images/27/fondo.png");
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  position: relative;
+}
+.titulo{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px !important;
+}
+.columnas-dos label {
+  line-height: 25px;
+}
+.descripcion {
+  font-size: 13pt;
+  line-height: 25px;
+}
+.btn-info{
+  margin: 0 0 1.8em 0;
+  width: 80px;
+  border: 0px;
+  background-color: white;
+  color: #da1c40;
+  font-size: 13pt;
+  padding: 3px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.desc-detalle {
+  font-size: 11pt;
+  color: white;
+}
+.subtitulo {
+  font-weight: 700;
+}
+.footer-navigation {
+  background: transparent !important;
+}
+.sep-vertical {
+  border-right: 1px white solid;
+  margin: 10px 0;
+}
+// .navbar-menu nav ul li {
+//   border-left: #da1c40;
+// }
+.logo-hollister-edu {
+  width: 50%;
+  text-align: left;
+  margin-top: 35vh;
+}
+.logo-hollister {
+  width: 50%;
+  text-align: right;
+  margin-top: 40vh;
+}
+.texto-nivel-avanzado-dos {
+  display: flex;
+  width: 100vw;
+  margin: auto;
+  margin-top: 0%;
+}
+.texto-final {
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+}
+.texto-nivel-avanzado-tres {
+  text-align: center;
+}
