@@ -19,7 +19,7 @@ const BannerSaludDigital = () => {
           </div>
         </div>
 
-        <FooterNavigation left={"/"} right={"/elements"} />
+        <FooterNavigation right={"/dos"} />
       </section>
     </>
   );

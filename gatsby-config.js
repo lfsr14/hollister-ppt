@@ -11,47 +11,11 @@ module.exports = {
       },
       {
         name: "Programas",
-        link: "#",
-        items: [
-          {
-            name: "Left Sidebar",
-            link: "/left-sidebar",
-          },
-          {
-            name: "Right Sidebar",
-            link: "/right-sidebar",
-          },
-          {
-            name: "No Sidebar",
-            link: "/no-sidebar",
-          },
-          {
-            name: "SubMenu",
-            link: "#",
-            items: [
-              {
-                name: "Option 1",
-                link: "#",
-              },
-              {
-                name: "Option 2",
-                link: "#",
-              },
-              {
-                name: "Option 3",
-                link: "#",
-              },
-              {
-                name: "Option 4",
-                link: "#",
-              },
-            ],
-          },
-        ],
+        link: "/",
       },
       {
         name: "Documentación",
-        link: "/elements",
+        link: "/",
         cl: "",
       },
     ],
