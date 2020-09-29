@@ -125,7 +125,10 @@ const BasicFaceToFace = (props) => (
       <div className="col-4 col-12-medium container-img">
         <img src={Img09} />
       </div>
-      <FooterNavigation left={"/"} right={"/especialized-one"} />
+      <FooterNavigation
+        left={"/basic-facetoface"}
+        right={"/especialized-one"}
+      />
     </div>
   </Layout>
 );
