@@ -3,15 +3,12 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
 import SecctionImg from "../images/especialized-one/nombre_02.png";
-import Faculty1 from "../images/faculty/profesor01.png";
-import Faculty2 from "../images/faculty/profesor02.png";
-import Faculty3 from "../images/faculty/profesor03.png";
-import Faculty4 from "../images/faculty/profesor04.png";
-import Faculty5 from "../images/faculty/profesor05.png";
-import Faculty6 from "../images/faculty/profesor06.png";
-import Faculty7 from "../images/faculty/profesor07.png";
-import Faculty8 from "../images/faculty/profesor08.png";
-import Faculty9 from "../images/faculty/profesor09.png";
+import Course1 from "../images/courses-content/curso01.png";
+import Couser2 from "../images/courses-content/curso02.png";
+import Couser3 from "../images/courses-content/curso03.png";
+import Couser4 from "../images/courses-content/curso04.png";
+import Couser5 from "../images/courses-content/curso05.png";
+import Couser6 from "../images/courses-content/curso06.png";
 
 import FooterNavigation from "../components/FooterNavigation";
 
@@ -38,84 +35,36 @@ const EspecializedThree = (props) => (
               <div className="col-12 container-especialized container-faculity">
                 <div className="row">
                   <div className="col-12 col-12-medium">
-                    <div className="container-faculty">
+                    <div className="container-course-contetnt">
                       <ul>
-                        <li className="empty-card-faculity">
-                          <div>
-                            <div className='title-name'>Blanca Fernández Lasquetty Blanc</div>
-
-                            <div className="description-name">
-                              Enfermera. Doctora. Secretaria de la Asociación
-                              Nacional de Directivos de Enfermería (ANDE) y
-                              Coordinadora del Área 2.0.
-                            </div>
+                        <li>
+                          <div className="container-img-course-content">
+                            <img src={Course1} />
                           </div>
                         </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty2} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>José Ma Antequera</span>
+                        <li>
+                          <div className="container-img-course-content">
+                            <img src={Couser2} />
                           </div>
                         </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty3} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>José Ma Cepeda</span>
+                        <li>
+                          <div className="container-img-course-content">
+                            <img src={Couser3} />
                           </div>
                         </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty4} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>Pedro Soriano</span>
+                        <li>
+                          <div className="container-img-course-content">
+                            <img src={Couser4} />
                           </div>
                         </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty5} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>Paloma Calleja</span>
+                        <li >
+                          <div className="container-img-course-content">
+                            <img src={Couser5} />
                           </div>
                         </li>
-                      </ul>
-
-                      <ul>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty6} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>José Ma Antequera</span>
-                          </div>
-                        </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty7} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>José Ma Cepeda</span>
-                          </div>
-                        </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty8} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>Pedro Soriano</span>
-                          </div>
-                        </li>
-                        <li className="non-empty">
-                          <div className="container-img-faculty">
-                            <img src={Faculty9} />
-                          </div>
-                          <div className="name-faculty">
-                            <span>Paloma Calleja</span>
+                        <li >
+                          <div className="container-img-course-content">
+                            <img src={Couser6} />
                           </div>
                         </li>
                       </ul>

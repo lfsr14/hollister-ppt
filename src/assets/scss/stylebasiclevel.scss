@@ -828,3 +828,29 @@ ol.bibliograph-list {
 .texto-nivel-avanzado-tres {
   text-align: center;
 }
+
+
+.container-course-contetnt {
+  box-sizing: border-box;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    background-color: #ffffff;
+    list-style: none;
+    margin: 10vh 5px 1px 1px;
+    text-align: center;
+    width: 210px;
+    padding: 5px;
+
+    img { 
+      width: 100%;
+    }
+  }
+}
