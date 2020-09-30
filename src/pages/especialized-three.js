@@ -7,6 +7,7 @@ import Cuadro1 from "../images/especialized-three/ico_01.png";
 import Cuadro2 from "../images/especialized-three/ico_02.png";
 import Cuadro3 from "../images/especialized-three/ico_03.png";
 import Cuadro4 from "../images/especialized-three/ico_03.png";
+import SecctionImg from "../images/especialized-one/nombre_02.png";
 import FooterNavigation from "../components/FooterNavigation";
 
 const EspecializedThree = (props) => (
@@ -19,10 +20,8 @@ const EspecializedThree = (props) => (
     <div id="main" className="basic-level">
       <div className='row'>
         <div className="col-12 col-12-medium">
-          <div className="line-title-unique"></div>
           <div className="main-basic">
-            <div className="number-page-unique">02</div>
-            <div className="title-basic-unique">Nivel Especializado</div>
+            <img src={SecctionImg} />
           </div>
           <div className='container-especialized'>
             <div className='row'>
