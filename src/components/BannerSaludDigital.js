@@ -14,7 +14,7 @@ const BannerSaludDigital = () => {
               <img src={logoPortada} className="logo-banner" />
             </div>
             <div className="col-12 title-banner">
-              <h2>Salud Digital</h2>
+              <h2><strong>Salud </strong>Digital</h2>
             </div>
           </div>
         </div>

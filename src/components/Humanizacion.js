@@ -12,26 +12,27 @@ const Humanizacion = () => {
           <div className="col-1"></div>
           <div className="col-7 container-humanizacion">
             <div className="content-title">
-              <h3>Tu formación nos importa</h3>
+              <h3 className="texto-gris">Tu formación nos importa</h3>
               <h2>La Humanización y la Salud Digital</h2>
-              <h2 className="subtitle">Porque tu paciente es lo primero</h2>
+              <h2 className="subtitle texto-gris">Porque tu paciente es lo primero</h2>
             </div>
             <div className="border-section">
               <div className="content-border">
                 <div className="content-quote">
-                  <h4>
-                    <i className="fas fa-quote-left" />
+                  <h4 className="texto-gris">
+                    <i className="fas fa-quote-left"/>
                     ¿Qué es la salud digital y por qué es importante para mi?
                   </h4>
-                  <h4>
+                  <h4 className="texto-gris">
                     ¿Y si te dijera que la salud digital no es un concepto
                     tecnológico sino una forma de mejorar como profesionales y
-                    conseguir que los pacientes alcancen una slud mejor?{"  "}
+                    conseguir que los pacientes alcancen una salud mejor?{"  "}
                     <i className="fas fa-quote-right" />*
                   </h4>
                 </div>
-                <h4 className="title-name">José María Cepeda</h4>
-                <h4>
+                <br></br>
+                <h4 className="title-name texto-gris">José María Cepeda</h4>
+                <h4 className="texto-gris">
                   Enfermero de Emergencias y Creador de Contenidos sobre e-salud
                 </h4>
               </div>

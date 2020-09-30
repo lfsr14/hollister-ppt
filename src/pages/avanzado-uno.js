@@ -36,6 +36,7 @@ const AvanzadoUno = (props) => (
                             <p className="titulo"><strong>Experto universitario en herramientas digitales en la práctica asistencial de enfermería</strong></p>
                             <button className="btn-info"><i class="fa fa-plus"></i>&nbsp;info</button>
                             <label className="subtitulo">Título propio de la Universidad Europea Miguel de Cervantes.</label>
+                            <br></br>
                             <p className="descripcion"><span><strong>Triple acreditación:</strong></span><br></br>
                                 <span className="desc-detalle">Experto universitario - 30 ECTS (750 horas)</span><br></br>
                                 <span className="desc-detalle">Formación Continuada - 18,8 créditos CFC</span><br></br>
