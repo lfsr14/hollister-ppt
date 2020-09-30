@@ -49,7 +49,7 @@ const AvanzadoUno = (props) => (
         </div>
         
       <FooterNavigation
-          left={"/especialized-four"}
+          left={"/especialized-seven"}
           right={"/avanzado-dos"}
         />
     </Layout>
