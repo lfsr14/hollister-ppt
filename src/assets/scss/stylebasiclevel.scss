@@ -1,12 +1,22 @@
-.col-1 .col-2 .col-3 .col-4 .col-5 .col-6
-.col-7 .col-8 .col-9 .col-10 .col-11 .col-11 {
+.col-1
+  .col-2
+  .col-3
+  .col-4
+  .col-5
+  .col-6
+  .col-7
+  .col-8
+  .col-9
+  .col-10
+  .col-11
+  .col-11 {
   height: 100vh;
   padding: 0;
 }
 
-@media screen and (max-width: 1680px){
+@media screen and (max-width: 1680px) {
   .row > * {
-      padding: 0;
+    padding: 0;
   }
   .row {
     margin-top: 0;
@@ -64,7 +74,7 @@
         position: absolute;
         bottom: 40px;
         width: 500px;
-        span{
+        span {
           font-weight: bold;
         }
       }
@@ -527,7 +537,7 @@
   margin-top: 4vh;
 }
 
-.container-title-method{
+.container-title-method {
   text-align: center;
   margin-top: 6vh;
   font-size: 27px;
@@ -547,9 +557,9 @@
     margin: 0;
     padding: 0;
   }
-  
+
   li.empty-card-faculity {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     list-style: none;
     margin: 5px 5px 1px 1px;
     text-align: center;
@@ -564,7 +574,7 @@
       text-align: left;
 
       div.title-name {
-        color: #FFFFFF;
+        color: #ffffff;
         font-size: 12px;
         text-align: left;
         line-height: 17px;
@@ -578,7 +588,7 @@
       }
 
       div.description-name {
-        color: #FFFFFF;
+        color: #ffffff;
         font-size: 12px;
         text-align: left;
         line-height: 17px;
@@ -590,7 +600,7 @@
     }
   }
   li.non-empty {
-    background: #FFFFFF;
+    background: #ffffff;
     list-style: none;
     margin: 5px 5px 1px 1px;
     text-align: center;
@@ -640,11 +650,13 @@ ol.bibliograph-list {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
 .fondo-slide {
   background-image: url("../images/18/fondo_18.png");
   height: 90vh;
-  position:absolute; 
-  z-index: 0; width:100%;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
   background-color: white;
 }
 .icono-nivel {
@@ -661,13 +673,13 @@ ol.bibliograph-list {
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   // line-height: 25px;
-
 }
 .columnas-dos {
   width: 50%;
   margin: 10px;
 }
-.logo-salus , .logo-salus img{
+.logo-salus,
+.logo-salus img {
   // margin-bottom: 25px;
   height: 70px;
 }
@@ -695,7 +707,7 @@ ol.bibliograph-list {
   min-height: 93vh;
   position: relative;
 }
-#banner-psanitarios{
+#banner-psanitarios {
   background-image: url("../images/21/fondo.png");
   background-position: center center;
   background-size: cover;
@@ -741,7 +753,7 @@ ol.bibliograph-list {
   background-size: cover;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
   min-height: 95vh;
-  position: relative;  
+  position: relative;
 }
 #banner-final {
   background-image: url("../images/27/fondo.png");
@@ -751,7 +763,7 @@ ol.bibliograph-list {
   min-height: 95vh;
   position: relative;
 }
-.titulo{
+.titulo {
   font-size: 20px;
   font-weight: 600;
   margin: 0px !important;
@@ -763,7 +775,7 @@ ol.bibliograph-list {
   font-size: 13pt;
   line-height: 25px;
 }
-.btn-info{
+.btn-info {
   margin: 0 0 1.8em 0;
   width: 80px;
   border: 0px;
@@ -812,6 +824,7 @@ ol.bibliograph-list {
   color: white;
   margin-top: 20px;
 }
+
 .texto-nivel-avanzado-tres {
   text-align: center;
 }
