@@ -43,7 +43,7 @@ const Humanizacion = () => {
           </div>
         </div>
 
-        <FooterNavigation left={"/"} right={"/basic-facetoface"} />
+        <FooterNavigation left={"/"} right={"/sabias-que"} />
       </section>
     </>
   );

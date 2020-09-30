@@ -15,7 +15,7 @@ module.exports = {
       },
       {
         name: "Documentación",
-        link: "/",
+        link: "/documentation",
         cl: "",
       },
     ],

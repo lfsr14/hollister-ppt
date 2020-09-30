@@ -3,11 +3,10 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
 import Ilustration from "../images/especialized-one/ilustracion.png";
-import ViewVideo from "../images/especialized-one/view-video.png";
 import Cuadro1 from "../images/especialized-one/ico_01.png";
 import Cuadro2 from "../images/especialized-one/ico_02.png";
 import Cuadro3 from "../images/especialized-one/ico_03.png";
-
+import SecctionImg from "../images/especialized-one/nombre_02.png";
 import FooterNavigation from "../components/FooterNavigation";
 
 const EspecializedTwo = (props) => (
@@ -19,12 +18,10 @@ const EspecializedTwo = (props) => (
 
     <div id="main" className="basic-level">
       <div className="col-12 col-12-medium">
-        <div className="line-title"></div>
         <div className="main-basic">
-          <div className="number-page">02</div>
-          <div className="title-basic">Nivel Especializado</div>
+          <img src={SecctionImg} />
         </div>
-        <div className="container-especialized">
+        <div className="container-especialized row">
           <div className="col-8">
             <div className="especialized">
               <span>
@@ -33,35 +30,37 @@ const EspecializedTwo = (props) => (
               </span>
             </div>
           </div>
-          <div className="col-4 col-img">
+          <div className="col-4 col-12-medium col-img">
             <img src={Ilustration} />
           </div>
         </div>
-        <div className="container-imgs-especialized-02 col-12 containers-cards">
-          <div>
-            <img src={Cuadro1} />
+        <div class="row">
+          <div className="container-imgs-especialized-02 col-12 containers-cards">
             <div>
-              <span>01</span>
-              <div>La eSalud mejora la calidad asistencial.</div>
-            </div>
-          </div>
-          <div>
-            <img src={Cuadro2} />
-            <div>
-              <span>02</span>
+              <img src={Cuadro1} />
               <div>
-                En el actual contexto sanitario se han convertido en
-                imprescindibles.
+                <span>01</span>
+                <div>La eSalud mejora la calidad asistencial.</div>
               </div>
             </div>
-          </div>
-          <div>
-            <img src={Cuadro3} />
             <div>
-              <span>03</span>
+              <img src={Cuadro2} />
               <div>
-                Estudios demuestran la necesidad de formación en estas
-                competencias.
+                <span>02</span>
+                <div>
+                  En el actual contexto sanitario se han convertido en
+                  imprescindibles.
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src={Cuadro3} />
+              <div>
+                <span>03</span>
+                <div>
+                  Estudios demuestran la necesidad de formación en estas
+                  competencias.
+                </div>
               </div>
             </div>
           </div>

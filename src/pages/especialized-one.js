@@ -7,6 +7,7 @@ import ViewVideo from "../images/especialized-one/view-video.png";
 import Cuadro1 from "../images/especialized-one/cuadro01.png";
 import Cuadro2 from "../images/especialized-one/cuadro02.png";
 import Cuadro3 from "../images/especialized-one/cuadro03.png";
+import SecctionImg from "../images/especialized-one/nombre_02.png";
 
 import FooterNavigation from "../components/FooterNavigation";
 
@@ -16,15 +17,12 @@ const EspecializedOne = (props) => (
       <title>Basic Face To Face</title>
       <meta name="description" content="Elements Page" />
     </Helmet>
-
     <div id="main" className="basic-level">
       <div className="col-12 col-12-medium">
-        <div className="line-title"></div>
         <div className="main-basic">
-          <div className="number-page">02</div>
-          <div className="title-basic">Nivel Especializado</div>
+          <img src={SecctionImg} />
         </div>
-        <div className="container-especialized">
+        <div className="container-especialized row">
           <div className="col-8 col-12-medium">
             <div className="online-especialized">
               Programa de desarrollo de{" "}
