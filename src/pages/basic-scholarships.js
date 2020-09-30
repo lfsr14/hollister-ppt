@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
 import Img09 from "../images/09.png";
 import SecctionImg from "../images/basic/nombre.png";
+import SalusPlay from "../images/basic/salusplay.jpeg";
 import FooterNavigation from "../components/FooterNavigation";
 
 const BasicFaceToFace = (props) => (
@@ -22,10 +23,11 @@ const BasicFaceToFace = (props) => (
           <div className="online-becas">
             <span>Online</span>
             <div>Becas en</div>
-          </div>
-          <div className="border-title-bottom">
+            <img src={SalusPlay}/>
+            <div className='square-becas'></div>
             <div className='more-info'>+ info</div>
           </div>
+          <div className="border-title-bottom"></div>
 
           <div className="wrapper">
             <div className="one">
