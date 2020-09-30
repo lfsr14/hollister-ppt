@@ -78,7 +78,7 @@ const EspecializedThree = (props) => (
     </div>
     <FooterNavigation
         left={"/especialized-three"}
-        right={"/especialized-five"}
+        right={"/avanzado-uno"}
       />
   </Layout>
 );
