@@ -3,11 +3,10 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../assets/scss/stylebasiclevel.scss";
 import Ilustration from "../images/especialized-one/ilustracion.png";
-import ViewVideo from "../images/especialized-one/view-video.png";
 import Cuadro1 from "../images/especialized-one/ico_01.png";
 import Cuadro2 from "../images/especialized-one/ico_02.png";
 import Cuadro3 from "../images/especialized-one/ico_03.png";
-
+import SecctionImg from "../images/especialized-one/nombre_02.png";
 import FooterNavigation from "../components/FooterNavigation";
 
 const EspecializedTwo = (props) => (
@@ -19,27 +18,23 @@ const EspecializedTwo = (props) => (
 
     <div id="main" className="basic-level">
       <div className="col-12 col-12-medium">
-        <div className="line-title-unique"></div>
         <div className="main-basic">
-          <div className="number-page-unique">02</div>
-          <div className="title-basic-unique">Nivel Especializado</div>
+          <img src={SecctionImg} />
         </div>
-        <div class='row'>
-          <div className="container-especialized">
-            <div className="col-8">
-              <div className="especialized">
-                <span>
-                  Principales motivos para desarrollar tu formación en
-                  Competencias Digitales
-                </span>
-              </div>
-            </div>
-            <div className="col-4 col-img">
-              <img src={Ilustration} />
+        <div className="container-especialized row">
+          <div className="col-8">
+            <div className="especialized">
+              <span>
+                Principales motivos para desarrollar tu formación en
+                Competencias Digitales
+              </span>
             </div>
           </div>
+          <div className="col-4 col-12-medium col-img">
+            <img src={Ilustration} />
+          </div>
         </div>
-        <div class='row'>
+        <div class="row">
           <div className="container-imgs-especialized-02 col-12 containers-cards">
             <div>
               <img src={Cuadro1} />
