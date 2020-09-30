@@ -22,7 +22,7 @@ const BasicFaceToFace = (props) => (
           </div>
           <div className="online-becas">
             <span>Presencial</span>
-            <div className='square-facetoface'></div>
+            <div className="square-facetoface"></div>
           </div>
           <div className="border-title-bottom"></div>
 
@@ -36,21 +36,21 @@ const BasicFaceToFace = (props) => (
               pacientes...etc
             </div>
             <div className="description-container">
-              <span>
-                Impartido por:
-              </span>
+              <span>Impartido por:</span>
               Expertos en la temática establecida anualmente
             </div>
-            <div className='containewr-aforo'>
+            <div className="containewr-aforo">
               <div>
                 <img src={IconImg} />
               </div>
-              <div className='aforo-description'>
-                <div className='count-aforo'>
+              <div className="aforo-description">
+                <div className="count-aforo">
                   <span>Aforo máximo:</span>
                   20 pax.
                 </div>
-                <div className='note-afoto'>*(se establecerá un programa online o presencial")</div>
+                <div className="note-afoto">
+                  *(se establecerá un programa online o presencial")
+                </div>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const BasicFaceToFace = (props) => (
         </div>
       </div>
     </div>
-    <FooterNavigation left={"/dos"} right={"/basic-scholarships"} />
+    <FooterNavigation left={"/sabias-que"} right={"/basic-scholarships"} />
   </Layout>
 );
 
