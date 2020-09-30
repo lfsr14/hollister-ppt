@@ -19,10 +19,10 @@ const EspecializedThree = (props) => (
     <div id="main" className="basic-level">
       <div className='row'>
         <div className="col-12 col-12-medium">
-          <div className="line-title"></div>
+          <div className="line-title-unique"></div>
           <div className="main-basic">
-            <div className="number-page">02</div>
-            <div className="title-basic">Nivel Especializado</div>
+            <div className="number-page-unique">02</div>
+            <div className="title-basic-unique">Nivel Especializado</div>
           </div>
           <div className='container-especialized'>
             <div className='row'>
