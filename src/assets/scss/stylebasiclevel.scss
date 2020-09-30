@@ -536,3 +536,88 @@
   line-height: 15px;
   letter-spacing: 1px;
 }
+
+.container-faculty {
+  box-sizing: border-box;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.empty-card-faculity {
+    background-color: #FFFFFF;
+    list-style: none;
+    margin: 5px 5px 1px 1px;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #706563;
+    display: block;
+
+    div {
+      background-color: #da1c40;
+      height: 100%;
+      text-align: left;
+
+      div.title-name {
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: left;
+        line-height: 17px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+        height: auto;
+        font-weight: 700;
+        padding-top: 14px;
+        padding-bottom: 17px;
+      }
+
+      div.description-name {
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: left;
+        line-height: 17px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  li.non-empty {
+    background: #FFFFFF;
+    list-style: none;
+    margin: 5px 5px 1px 1px;
+    text-align: center;
+    width: 200px;
+    padding: 0 0 0 0;
+    border: 1px solid #706563;
+    display: block;
+
+    div.container-img-faculty {
+      display: block;
+      img {
+        width: 90%;
+        margin-top: 8px;
+      }
+    }
+    div.name-faculty {
+      text-align: left;
+      padding: 8px 10px 20px 9px;
+      font-family: helvetica, sans-serif;
+      font-size: 14px;
+      color: #706563;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+    }
+  }
+}
+
+.container-faculity {
+  margin: 3vh;
+}
