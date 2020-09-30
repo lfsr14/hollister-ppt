@@ -973,3 +973,41 @@ div.container-collaborators{
     letter-spacing: 1px;
     line-height: 30px;
 }
+.content-header {
+  display: inline-block;
+  img {
+    width: 100vw;
+    height: fit-content;
+  }
+}
+
+.contetnt-title-levels {
+  position: absolute;
+  color: #FFFFFF;
+  top: 20vh;
+  display: grid;
+  padding-left: 3vw;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  font-family: sans-serif;
+}
+
+.container-header {
+  height: fit-content;
+}
+
+.wrapper-levels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  padding: 0px 5vh 0 6%;
+
+  div {
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+}
