@@ -2,7 +2,10 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import PDFIcon from '../images/pdf-ico.png'
-
+import PDF01 from '../assets/pdfs/Salud_digital_Nivel_Basico.pdf'
+import PDF02 from '../assets/pdfs/Salud_digital_Nivel_Avanzado.pdf'
+import PDF03 from '../assets/pdfs/Salud_digital_Nivel_Especializado.pdf'
+import PDF04 from '../assets/pdfs/Salud_digital_Foro_de_Urologia.pdf'
 
 const Documentation = (props) => (
   <Layout>
@@ -23,7 +26,7 @@ const Documentation = (props) => (
           <div className='container-list-pdfs'>
             <div className='pdf-title'>
               <DownloadLink
-                src='/static/pdfs/Salud_digital_Nivel_Basico.pdf'
+                src={PDF01}
               >
                 <img src={PDFIcon} />
                 <div>
@@ -33,7 +36,7 @@ const Documentation = (props) => (
             </div>
             <div className='pdf-title'>
               <DownloadLink
-                src='/static/pdfs/Salud_digital_Nivel_Avanzado.pdf'
+                src={PDF02}
               >
                 <img src={PDFIcon} />
                 <div>
@@ -43,7 +46,7 @@ const Documentation = (props) => (
             </div>
             <div className='pdf-title'>
               <DownloadLink
-                  src='/static/pdfs/Salud_digital_Nivel_Especializado.pdf'
+                  src={PDF03}
               >
                 <img src={PDFIcon} />
                 <div>
@@ -53,7 +56,7 @@ const Documentation = (props) => (
             </div>
             <div className='pdf-title'>
               <DownloadLink
-                  src='/static/pdfs/Salud_digital_Foro_de_Urologia.pdf'
+                  src={PDF04}
               >
                 <img src={PDFIcon} />
                 <div>
