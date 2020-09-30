@@ -119,7 +119,7 @@
 }
 .basic-level {
   background: #ffffff;
-  height: 100vh;
+  height: 95vh;
   color: #da1c40;
   display: flex;
 }
@@ -827,4 +827,84 @@ ol.bibliograph-list {
 
 .texto-nivel-avanzado-tres {
   text-align: center;
+}
+
+
+.container-course-contetnt {
+  box-sizing: border-box;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    background-color: #ffffff;
+    list-style: none;
+    margin: 10vh 5px 1px 1px;
+    text-align: center;
+    width: 210px;
+    padding: 5px;
+
+    img { 
+      width: 100%;
+    }
+  }
+}
+
+.container-documentation {
+  margin-top: 15vh;
+}
+.documentation-title {
+  color: #da1c40;
+  font-size: 35px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1vh 10vw;
+}
+.line-top-documentation{
+  border-top: 1px solid #da1c40;
+}
+.line-left-documentation {
+  height: 4vh;
+  border-left: 1px solid #da1c40;
+}
+.container-text-documentation {
+  border: 1px solid #da1c40;
+  border-top: 0;
+  width: 500px;
+  padding: 4vh 0 4vh 4vw;
+}
+.container-list-pdfs {
+  padding: 5vh 10vw;
+  display: grid;
+
+  div.pdf-title {
+    margin: 1.5vh 0;
+    display: flex;
+    align-items: center;
+    a {
+      display: flex;
+      text-decoration: none;
+      div {
+        margin-left: 2vw;
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bolder;
+        color: #706563;
+      
+      }
+      img {
+        width: 40px;
+      }
+    }
+  }
+}
+.footer-pdfs {  
+  height: 7vh;
+  background-color: #da1c40;
+  margin: 0 6vw;
 }
