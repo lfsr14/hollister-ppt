@@ -829,7 +829,6 @@ ol.bibliograph-list {
   text-align: center;
 }
 
-
 .container-course-contetnt {
   box-sizing: border-box;
 
@@ -1010,4 +1009,164 @@ div.container-collaborators{
       height: auto;
     }
   }
+
+.content-title h3, h2{
+  line-height: 40px;
+}
+.texto-gris {
+  color: rgb(142, 133, 131) !important;
+}
+.avanzado-line {
+  border: 1px solid #fff;
+  padding: 6vh 6vw;
+  font-size: 40px;
+  font-family: sans-serif;
+  border-right: 0px;
+  margin-top: 3vh;
+  line-height: 45px;
+  border-bottom: 0px;
+  width: 135%;
+  color: white;
+  font-weight: 600;
+}
+.icono-nivel-dos {
+  height: 70px !important;
+  position: absolute !important;
+  right: 40% !important;
+}
+.con-borde {
+  width: 30%;
+  border-top: 1px Solid white;
+}
+.sin-borde {
+  width: 50%;
+  border: 0px;
+}
+.margen-cuadro-texto {
+  margin-left: 10vw !important;
+}
+.btn-line {
+  margin-top: -17px;
+  margin-left: 38%;
+  border: 0px;
+}
+.margen-col {
+  margin: 0 150px;
+}
+.tit {
+  margin-top: 30%;
+  margin-left: 20%;
+  font-size: xxx-large;
+}
+.sub {
+  margin-left: 11%;
+  font-weight: 600;
+}
+.sub-dos {
+  margin-left: 11%;
+  font-weight: 500;
+  font-size: xx-large;
+  margin-top: -30px;
+}
+.txt-adjust {
+  width: 60% !important;  
+}
+.listas {
+  margin-left: 45%;
+  margin-top: 25px;
+  max-width: 550px;
+}
+.listas ul li {
+  color: white;
+}
+.marg-left {
+  margin-left: 40% !important;
+  margin-top: 20px;
+}
+.seccion-foto-info {
+  display: flex;
+  margin-left: 35%;
+  margin-top: -20px;
+}
+.foto-seccion-info {
+  max-width: 40%;
+}
+.foto-seccion-info img{
+  height: 150px;
+}
+.info-seccion-info {
+  max-width: 60%;
+  text-align: center;
+  margin-left: 30px;
+  background: white;
+  width: 100%;
+  color: black;
+  margin-top: 40px !important;
+  height: 60px;
+}
+.sub-line{
+  font-size: 0.5em !important;
+}
+.columnas-dos ul {
+  font-size: larger;
+}
+.no-border {
+  border: 0px;
+  line-height: unset;
+}
+.label-info , .label-info strong{
+  color: rgb(142, 133, 131) !important;
+  margin: 0px !important;
+}
+.neg{
+  font-weight: 600;
+}
+.margin-mtop {
+  margin-top: -40px !important;
+}
+.ciber {
+  margin-top: 5%;
+  margin-left: -50px;
+  color: #da1c40;
+}
+.info-seccion-info-lg {
+  margin-left: 10%;
+  margin-top: 40px;
+  background: white;
+  color: black;
+  width: 45%;
+  padding: 20px;
+  height: 300px;
+  font-size: initial;
+}
+.label-info-lg , .label-info-lg strong{
+  color: black !important;
+  margin-top: 20px;
+  font-size: larger;
+}
+.neg_tit {
+  font-size: smaller !important;
+  color: #da1c40  !important;
+}
+.divtitulos{
+  margin-left: 13%;
+  margin-top: -30px;
+}
+.titletit{
+  font-size: xxx-large;
+  margin-bottom: 10px;
+}
+.stitletit{
+  font-size: xx-large;
+}
+.color-red-tema{
+  color: #da1c40 !important;
+}
+.seccion-foto-info-lg {
+  display: flex;
+}
+.ffoto {
+  position: absolute;
+    right: 34%;
+    bottom: 11%;
 }

@@ -13,8 +13,12 @@ const Urologia = (props) => (
   
         <div>
             <section id="banner-urologia">
-            
-            
+              <div className="columnas-una">
+                <div className="columnas-dos">
+                    <h1 className="tit">Foros de Urología <br></br>en Salud Digital</h1>
+                </div>
+              </div>
+              <h1 class="sub">Hollister Education con la Salud Digital</h1>
             </section>
         </div>
         
@@ -26,3 +30,4 @@ const Urologia = (props) => (
   );
   
   export default Urologia;
+  

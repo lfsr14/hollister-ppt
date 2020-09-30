@@ -13,8 +13,13 @@ const HollisterSaludDigital = (props) => (
   
         <div>
             <section id="banner-hsdigital">
-            
-            
+              <div className="columnas-una">
+                <div className="columnas-dos">
+                    <h1 className="tit">Hollister con la<br></br>Salud Digital</h1>
+                </div>
+              </div>
+              <h1 className="sub-dos">Descubre cómo podemos<br></br>aportar valor a tu día a día</h1>
+              
             </section>
         </div>
         
