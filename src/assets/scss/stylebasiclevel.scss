@@ -349,7 +349,7 @@
 
 .container-especialized {
   display: flex;
-
+  margin-top: 10vh;
   .col-8 {
     height: auto !important;
   }
@@ -365,11 +365,10 @@
 .col-img {
   bottom: 10vh;
   left: -6vw;
-
+  position: relative;
   img {
     position: absolute;
     bottom: -129px;
-    /* left: -100px; */
     width: 100%;
   }
 }
@@ -378,20 +377,19 @@
   margin-left: 6%;
   border-top: 1px solid #da1c40;
   margin-right: 30vh;
+  position: relative;
 }
 
 .view-video {
   position: absolute;
   font-family: sans-serif;
-  right: 13vh;
-  margin-top: -12px;
-  /* background: #da1c40; */
+  right: -30%;
+  margin-top: -25px;
   color: #ffffff;
   padding: 0 10px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-
   img {
     width: 10vw;
   }
