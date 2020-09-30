@@ -13,7 +13,16 @@ const ProfesionalesSanitarios = (props) => (
   
         <div>
             <section id="banner-psanitarios">
-            
+              
+              <div className="columnas-una">
+                <div className="columnas-dos txt-adjust">
+                    <h1 className="tit">¿Sabías que el 93% de los<br></br>
+                      profesionales sanitarios<br></br>
+                      reclaman una capacitación<br></br>
+                      en Salud Digital?
+                      </h1>
+                </div>
+              </div>
             
             </section>
         </div>
