@@ -11,10 +11,10 @@ const BannerSaludDigital = () => {
         <div className="container-banner">
           <div className="row">
             <div className="col-12">
-              <img src={logoPortada} className="logo-banner" />
+              <img src={logoPortada} className="logo-banner animate__animated animate__fadeInDownBig"/>
             </div>
-            <div className="col-12 title-banner">
-              <h2><strong>Salud </strong>Digital</h2>
+            <div className="col-12 margin-left-title">
+              <h2 className="titanimate"><strong>Salud </strong>Digital</h2>
             </div>
           </div>
         </div>

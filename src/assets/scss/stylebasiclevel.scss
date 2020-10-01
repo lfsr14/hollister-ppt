@@ -1009,7 +1009,7 @@ div.container-collaborators{
       height: auto;
     }
   }
-
+}
 .content-title h3, h2{
   line-height: 40px;
 }
@@ -1044,6 +1044,7 @@ div.container-collaborators{
 }
 .margen-cuadro-texto {
   margin-left: 10vw !important;
+  margin-top: 0px !important;
 }
 .btn-line {
   margin-top: -17px;
@@ -1148,18 +1149,18 @@ div.container-collaborators{
   font-size: smaller !important;
   color: #da1c40  !important;
 }
-.divtitulos{
+.divtitulos {
   margin-left: 13%;
   margin-top: -30px;
 }
-.titletit{
+.titletit {
   font-size: xxx-large;
   margin-bottom: 10px;
 }
-.stitletit{
+.stitletit {
   font-size: xx-large;
 }
-.color-red-tema{
+.color-red-tema {
   color: #da1c40 !important;
 }
 .seccion-foto-info-lg {
@@ -1167,6 +1168,32 @@ div.container-collaborators{
 }
 .ffoto {
   position: absolute;
-    right: 34%;
-    bottom: 11%;
+  right: 34%;
+  bottom: 11%;
+}
+.title-banner {
+  margin-top: 60px;
+}
+.margin-left-title h2{
+  font-size: 80px;
+  color: #fff;
+  margin-left: 25px !important;
+  margin-top: 60px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .titanimate {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    
+    /* Provide alternate styling */
+    // background-color: #47ACFA;
+    // border: none;
+    // border-radius: 0;
+    // box-shadow: none;
+    // height: 30vh;
+    // width: 30vh;
+  }
 }
