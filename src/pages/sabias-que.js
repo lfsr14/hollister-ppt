@@ -45,19 +45,24 @@ const SabiasQue = (props) => {
                   <div className="col-12 especialized-container">
                     <div className="col-12 container-especialized">
                       <div className="row">
-                        <div className="col-8 col-12-medium">
+                        <div className="col-12 col-12-medium">
                           <div className="container-grid-especialized-three">
                             <div className="wrapper-especilized-four">
                               <div>
                                 <img src={icon01} />
                                 <h2 className="percent-section">94%</h2>
-                                <span>
+                                <span className="description-content">
                                   de los profesionales utiliza el ordenador en
                                   su trabajo
                                 </span>
                               </div>
                               <div>
-                                <h1>Texto</h1>
+                                <span className="middle-description">
+                                  pero solo
+                                </span>
+                              </div>
+                              <div>
+                                <img src={icon02} />
                               </div>
                             </div>
                           </div>

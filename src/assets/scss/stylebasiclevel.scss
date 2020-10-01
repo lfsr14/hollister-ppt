@@ -840,7 +840,7 @@ ol.bibliograph-list {
     padding: 0;
   }
 
-  li{
+  li {
     background-color: #ffffff;
     list-style: none;
     margin: 10vh 5px 1px 1px;
@@ -848,7 +848,7 @@ ol.bibliograph-list {
     width: 210px;
     padding: 5px;
 
-    img { 
+    img {
       width: 100%;
     }
   }
@@ -864,7 +864,7 @@ ol.bibliograph-list {
   font-weight: bold;
   padding: 1vh 10vw;
 }
-.line-top-documentation{
+.line-top-documentation {
   border-top: 1px solid #da1c40;
 }
 .line-left-documentation {
@@ -894,7 +894,6 @@ ol.bibliograph-list {
         font-family: Helvetica, sans-serif;
         font-weight: bolder;
         color: #706563;
-      
       }
       img {
         width: 40px;
@@ -902,7 +901,7 @@ ol.bibliograph-list {
     }
   }
 }
-.footer-pdfs {  
+.footer-pdfs {
   height: 7vh;
   background-color: #da1c40;
   margin: 0 6vw;
@@ -925,15 +924,15 @@ ol.bibliograph-list {
   margin-left: 10vw;
 }
 
-div.container-collaborators{
+div.container-collaborators {
   margin: 0 0 0 10vw;
-  
+
   .container-collaborator {
     border: 1px solid #706563;
     border-top: 0;
     display: inline-grid;
     border-right: 0;
-    
+
     div.img-collaborators {
       display: flex;
       padding: 1vh 7vw 0 3vw;
@@ -965,12 +964,12 @@ div.container-collaborators{
 
 .title-container-collaborators {
   margin-top: 15vh;
-    text-align: center;
-    font-family: helvetica, sanf-serif;
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 30px;
+  text-align: center;
+  font-family: helvetica, sanf-serif;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 .content-header {
   display: inline-block;
@@ -982,7 +981,7 @@ div.container-collaborators{
 
 .contetnt-title-levels {
   position: absolute;
-  color: #FFFFFF;
+  color: #ffffff;
   top: 20vh;
   display: grid;
   padding-left: 3vw;
@@ -1010,6 +1009,7 @@ div.container-collaborators{
     }
   }
 }
+
 .content-title h3, h2{
   line-height: 40px;
 }
@@ -1070,7 +1070,7 @@ div.container-collaborators{
   margin-top: -30px;
 }
 .txt-adjust {
-  width: 60% !important;  
+  width: 60% !important;
 }
 .listas {
   margin-left: 45%;
@@ -1092,7 +1092,7 @@ div.container-collaborators{
 .foto-seccion-info {
   max-width: 40%;
 }
-.foto-seccion-info img{
+.foto-seccion-info img {
   height: 150px;
 }
 .info-seccion-info {
@@ -1105,7 +1105,7 @@ div.container-collaborators{
   margin-top: 40px !important;
   height: 60px;
 }
-.sub-line{
+.sub-line {
   font-size: 0.5em !important;
 }
 .columnas-dos ul {
@@ -1115,11 +1115,12 @@ div.container-collaborators{
   border: 0px;
   line-height: unset;
 }
-.label-info , .label-info strong{
+.label-info,
+.label-info strong {
   color: rgb(142, 133, 131) !important;
   margin: 0px !important;
 }
-.neg{
+.neg {
   font-weight: 600;
 }
 .margin-mtop {
@@ -1140,14 +1141,15 @@ div.container-collaborators{
   height: 300px;
   font-size: initial;
 }
-.label-info-lg , .label-info-lg strong{
+.label-info-lg,
+.label-info-lg strong {
   color: black !important;
   margin-top: 20px;
   font-size: larger;
 }
 .neg_tit {
   font-size: smaller !important;
-  color: #da1c40  !important;
+  color: #da1c40 !important;
 }
 .divtitulos {
   margin-left: 13%;
@@ -1171,6 +1173,7 @@ div.container-collaborators{
   right: 34%;
   bottom: 11%;
 }
+
 .title-banner {
   margin-top: 60px;
 }
@@ -1180,3 +1183,4 @@ div.container-collaborators{
   margin-left: 25px !important;
   margin-top: 60px;
 }
+
