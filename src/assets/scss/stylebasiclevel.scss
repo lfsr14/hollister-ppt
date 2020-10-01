@@ -1180,20 +1180,3 @@ div.container-collaborators{
   margin-left: 25px !important;
   margin-top: 60px;
 }
-@media (prefers-reduced-motion: reduce) {
-  .titanimate {
-    display: inline-block;
-    margin: 0 0.5rem;
-
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    
-    /* Provide alternate styling */
-    // background-color: #47ACFA;
-    // border: none;
-    // border-radius: 0;
-    // box-shadow: none;
-    // height: 30vh;
-    // width: 30vh;
-  }
-}
